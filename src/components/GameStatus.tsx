@@ -1,4 +1,4 @@
-import gods from '../data/gods.json';
+import gods from '../gods.json';
 import { useGod } from '../store';
 
 export default function GameStatus() {
@@ -7,7 +7,7 @@ export default function GameStatus() {
   if (selectedGod) {
     const god = gods.find((g) => g.name === selectedGod.name);
     return (
-      <div className="flex flex-row justify-center items-center gap-4">
+      <div className="flex md:flex-row flex-col justify-center items-center gap-2 md:gap-4 md:text-left text-center">
         <img
           src={god?.image_url}
           alt={god?.name}

@@ -1,0 +1,586 @@
+[
+  {
+    "name": "Achilles",
+    "image_url": "./iconAchilles.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo", "Jungle"]
+  },
+  {
+    "name": "Agni",
+    "image_url": "./iconAgni.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Aladdin",
+    "image_url": "./iconAladdin.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Middle", "Jungle"]
+  },
+  {
+    "name": "Amaterasu",
+    "image_url": "./iconAmaterasu.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Anhur",
+    "image_url": "./iconAnhur.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Anubis",
+    "image_url": "./iconAnubis.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Aphrodite",
+    "image_url": "./iconAphrodite.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Apollo",
+    "image_url": "./iconApollo.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Ares",
+    "image_url": "./iconAres.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Artemis",
+    "image_url": "./iconArtemis.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Artio",
+    "image_url": "./iconArtio.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Solo", "Middle", "Support"]
+  },
+  {
+    "name": "Athena",
+    "image_url": "./iconAthena.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Support", "Jungle"]
+  },
+  {
+    "name": "Awilix",
+    "image_url": "./iconAwilix.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Bacchus",
+    "image_url": "./iconBacchus.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Baron Samedi",
+    "image_url": "./iconBaron.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Bellona",
+    "image_url": "./iconBellona.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Solo", "Jungle"]
+  },
+  {
+    "name": "Cabrakan",
+    "image_url": "./iconCabrakan.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support", "Solo"]
+  },
+  {
+    "name": "Cerberus",
+    "image_url": "./iconCerberus.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support", "Solo"]
+  },
+  {
+    "name": "Cernunnos",
+    "image_url": "./iconCernunnos.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Chaac",
+    "image_url": "./iconChaac.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Cupid",
+    "image_url": "./iconCupid.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Daji",
+    "image_url": "./iconDaji.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Danzaburou",
+    "image_url": "./iconDanzaburou.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Eset",
+    "image_url": "./iconEset.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Fenrir",
+    "image_url": "./iconFenrir.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Ganesha",
+    "image_url": "./iconGanesha.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Geb",
+    "image_url": "./iconGeb.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Guan Yu",
+    "image_url": "./iconGuanYu.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Hades",
+    "image_url": "./iconHades.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Hecate",
+    "image_url": "./iconHecate.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Hercules",
+    "image_url": "./iconHercules.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo", "Jungle"]
+  },
+  {
+    "name": "Hou Yi",
+    "image_url": "./iconHouYi.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Hua Mulan",
+    "image_url": "./iconMulan.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Hun Batz",
+    "image_url": "./iconHunBatz.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Izanami",
+    "image_url": "./iconIzanami.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Janus",
+    "image_url": "./iconJanus.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Jing Wei",
+    "image_url": "./iconJingWei.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Jormungandr",
+    "image_url": "./iconJormungandr.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Kali",
+    "image_url": "./iconKali.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Jungle", "Carry"]
+  },
+  {
+    "name": "Khepri",
+    "image_url": "./iconKhepri.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Kukulkan",
+    "image_url": "./iconKukulkan.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Loki",
+    "image_url": "./iconLoki.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Medusa",
+    "image_url": "./iconMedusa.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Mercury",
+    "image_url": "./iconMercury.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Merlin",
+    "image_url": "./iconMerlin.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Mordred",
+    "image_url": "./iconMordred.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle", "Solo"]
+  },
+  {
+    "name": "Neith",
+    "image_url": "./iconNeith.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Nemesis",
+    "image_url": "./iconNemesis.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Jungle", "Solo"]
+  },
+  {
+    "name": "Nut",
+    "image_url": "./iconNut.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Solo", "Carry"]
+  },
+  {
+    "name": "Nu Wa",
+    "image_url": "./iconNuWa.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Middle"]
+  },
+  {
+    "name": "Odin",
+    "image_url": "./iconOdin.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle","Solo", "Support"]
+  },
+  {
+    "name": "Osiris",
+    "image_url": "./iconOsiris.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Pele",
+    "image_url": "./iconPele.webp",
+    "type": "Physical",
+    "gender": "Female",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Poseidon",
+    "image_url": "./iconPoseidon.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Princess Bari",
+    "image_url": "./iconBari.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Ra",
+    "image_url": "./iconRa.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Rama",
+    "image_url": "./iconRama.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Scylla",
+    "image_url": "./iconScylla.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle"]
+  },
+  {
+    "name": "Sobek",
+    "image_url": "./iconSobek.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Sol",
+    "image_url": "./iconSol.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Sun Wukong",
+    "image_url": "./iconSunWukong.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Solo"]
+  },
+  {
+    "name": "Susano",
+    "image_url": "./iconSusano.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "Sylvanus",
+    "image_url": "./iconSylvanus.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Thanatos",
+    "image_url": "./iconThanatos.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle"]
+  },
+  {
+    "name": "The Morrigan",
+    "image_url": "./iconTheMorrigan.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  },
+  {
+    "name": "Thor",
+    "image_url": "./iconThor.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle", "Solo"]
+  },
+  {
+    "name": "Tsukuyomi",
+    "image_url": "./iconTsukuyomi.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Jungle", "Solo"]
+  },
+  {
+    "name": "Ullr",
+    "image_url": "./iconUllr.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Vulcan",
+    "image_url": "./iconVulcan.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Middle", "Solo"]
+  },
+  {
+    "name": "Xbalanque",
+    "image_url": "./iconXbalanque.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
+    "name": "Yemoja",
+    "image_url": "./iconYemoja.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Ymir",
+    "image_url": "./iconYmir.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Zeus",
+    "image_url": "./iconZeus.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Middle"]
+  }
+]

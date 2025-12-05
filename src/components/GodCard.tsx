@@ -9,15 +9,17 @@ export default function GodCard({
 }) {
   return (
     <div
-      className="inline-flex flex-col items-center bg-gray-800 shadow-black shadow-md hover:shadow-lg hover:p-1 border border-gray-600 rounded w-full text-center hover:scale-120 transition-all hover:-translate-y-3 hover:cursor-pointer select-none"
+      className="inline-flex relative flex-col items-center bg-gray-800 shadow-black shadow-md hover:shadow-lg hover:p-1 border border-gray-500 rounded w-full text-center hover:scale-120 transition-all hover:-translate-y-3 hover:cursor-pointer select-none"
       onClick={onClick}
     >
       <img
         src={god.image_url}
         alt={god.name}
-        className="rounded w-full min-w-5 pointer-events-none select-none"
+        className="mb-1 rounded w-full pointer-events-none select-none"
       />
-      <p className="p-2 font-semibold wrap-break-word">{god.name}</p>
+      <div className="right-0 bottom-0 left-0 absolute bg-linear-to-t from-black to-transparent rounded-b">
+        <p className="p-2 font-semibold md:text-md text-xs">{god.name}</p>
+      </div>
     </div>
   );
 }

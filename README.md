@@ -1,4 +1,5 @@
 # Smite Guess Who
+![Smite Guess Who](cover.png)
 
 ## Play Now
 
