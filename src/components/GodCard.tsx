@@ -1,4 +1,4 @@
-import type { God } from '../types';
+import type { God } from "../types";
 
 export default function GodCard({
   god,
@@ -18,7 +18,9 @@ export default function GodCard({
         className="mb-1 rounded w-full pointer-events-none select-none"
       />
       <div className="right-0 bottom-0 left-0 absolute bg-linear-to-t from-black to-transparent rounded-b">
-        <p className="p-2 font-semibold md:text-md text-xs">{god.name}</p>
+        <p className="p-1 font-semibold text-md md:text-lg leading-none">
+          {god.name}
+        </p>
       </div>
     </div>
   );

@@ -96,6 +96,14 @@
     "roles": ["Support", "Jungle"]
   },
   {
+    "name": "Atlas",
+    "image_url": "./iconAtlas.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Melee",
+    "roles": ["Support", "Solo"]
+  },
+  {
     "name": "Awilix",
     "image_url": "./iconAwilix.webp",
     "type": "Physical",
@@ -160,6 +168,22 @@
     "roles": ["Solo"]
   },
   {
+    "name": "Charon",
+    "image_url": "./iconCharon.webp",
+    "type": "Magical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Support"]
+  },
+  {
+    "name": "Chiron",
+    "image_url": "./iconChiron.webp",
+    "type": "Physical",
+    "gender": "Male",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
+  },
+  {
     "name": "Cupid",
     "image_url": "./iconCupid.webp",
     "type": "Physical",
@@ -182,6 +206,14 @@
     "gender": "Male",
     "attack_type": "Ranged",
     "roles": ["Carry"]
+  },
+  {
+    "name": "Discordia",
+    "image_url": "./iconDiscordia.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Middle"]
   },
   {
     "name": "Eset",
@@ -270,6 +302,14 @@
     "gender": "Male",
     "attack_type": "Melee",
     "roles": ["Jungle"]
+  },
+  {
+    "name": "Ishtar",
+    "image_url": "./iconIshtar.webp",
+    "type": "Magical",
+    "gender": "Female",
+    "attack_type": "Ranged",
+    "roles": ["Carry"]
   },
   {
     "name": "Izanami",
@@ -405,7 +445,7 @@
     "type": "Physical",
     "gender": "Male",
     "attack_type": "Melee",
-    "roles": ["Jungle","Solo", "Support"]
+    "roles": ["Jungle", "Solo", "Support"]
   },
   {
     "name": "Osiris",
