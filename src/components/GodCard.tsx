@@ -9,7 +9,7 @@ export default function GodCard({
 }) {
   return (
     <div
-      className="inline-flex relative flex-col items-center bg-gray-800 shadow-black shadow-md hover:shadow-lg hover:p-1 border border-gray-500 rounded w-full text-center hover:scale-120 transition-all hover:-translate-y-3 hover:cursor-pointer select-none"
+      className="inline-flex hover:z-1 relative flex-col items-center bg-gray-800 shadow-black shadow-md hover:shadow-lg hover:p-1 border border-gray-500 rounded w-full text-center hover:scale-130 transition-all hover:-translate-y-4 hover:cursor-pointer select-none"
       onClick={onClick}
     >
       <img

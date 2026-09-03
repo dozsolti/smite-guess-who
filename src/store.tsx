@@ -1,15 +1,16 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
-import type { God } from './types';
+import allGods from "./gods.json";
+
+import type { God } from "./types";
 
 interface GodState {
   choosenGod: God | null;
   setChoosenGod: (god: God) => void;
   hiddenGods: Set<string>;
   toggleHiddenGod: (god: God) => void;
-  addHiddenGods: (gods: God[]) => void;
-  removeHiddenGods: (gods: God[]) => void;
-  restart: () => void;
+  resetHiddenGods: () => void;
+  pickRandomGod: () => void;
 }
 
 export const useGod = create<GodState>((set) => ({
@@ -26,31 +27,65 @@ export const useGod = create<GodState>((set) => ({
       };
     }),
 
-  addHiddenGods: (gods: God[]) => {
+  resetHiddenGods: () =>
     set((state) => {
-      for (const god of gods) {
-        state.hiddenGods.add(god.name);
-      }
+      state.hiddenGods.clear();
 
       return {
-        hiddenGods: new Set(state.hiddenGods),
-      };
-    });
-  },
-
-  removeHiddenGods: (gods: God[]) =>
-    set((state) => {
-      for (const god of gods) {
-        state.hiddenGods.delete(god.name);
-      }
-
-      return {
-        hiddenGods: new Set(state.hiddenGods),
+        hiddenGods: new Set(),
       };
     }),
-  restart: () =>
-    set(() => ({
-      choosenGod: null,
-      hiddenGods: new Set(),
-    })),
+
+  pickRandomGod: () => {
+    const randomGod = allGods[Math.floor(Math.random() * allGods.length)];
+    set({ choosenGod: randomGod });
+  },
 }));
+
+interface FiltersState {
+  filters: {
+    type: "magical" | "physical" | null;
+    gender: "male" | "female" | null;
+    attack_type: "melee" | "ranged" | null;
+  };
+  setFilter: (
+    key: keyof FiltersState["filters"],
+    value: FiltersState["filters"][keyof FiltersState["filters"]],
+  ) => void;
+  resetFilters: () => void;
+}
+
+export const useFilters = create<FiltersState>((set) => ({
+  filters: {
+    type: null,
+    gender: null,
+    attack_type: null,
+  },
+
+  setFilter: (key, value) => {
+    set((state) => ({
+      filters: {
+        ...state.filters,
+        [key]: value,
+      },
+    }));
+  },
+
+  resetFilters: () => {
+    set({ filters: { type: null, gender: null, attack_type: null } });
+  },
+}));
+
+export const resetGame = () => {
+  useFilters.setState({
+    filters: {
+      type: null,
+      gender: null,
+      attack_type: null,
+    },
+  });
+  useGod.setState({
+    choosenGod: null,
+    hiddenGods: new Set(),
+  });
+};
