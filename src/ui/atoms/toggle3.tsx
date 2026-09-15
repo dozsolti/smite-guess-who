@@ -71,7 +71,7 @@ export function Toggle3({
   };
 
   return (
-    <div className="w-full">
+    <div className="bg-slate-800/50 border border-slate-700 rounded-full w-full">
       <div
         aria-label="Toggle selection"
         aria-valuemax={2}
@@ -92,17 +92,17 @@ export function Toggle3({
         role="slider"
         tabIndex={0}
       >
-        <div className="top-3/12 z-10 absolute place-items-center grid grid-cols-3 w-full font-medium text-sm pointer-events-none">
+        <div className="top-3/12 z-10 absolute flex w-full text-sm pointer-events-none">
           <span
-            className={`${value === "left" ? "text-white" : "text-slate-400 "}`}
+            className={`w-2/3 text-center ${value === "left" ? "text-white " : "text-slate-200 "}`}
           >
             {leftLabel}
           </span>
-          <span className="opacity-50 font-thin italic">
+          <span className="opacity-50 w-1/3 font-thin text-center italic">
             {value === "middle" ? "choose" : ""}
           </span>
           <span
-            className={`${value === "right" ? "text-white" : "text-slate-400"}`}
+            className={`w-2/3 text-center ${value === "right" ? "text-white" : "text-slate-200"}`}
           >
             {rightLabel}
           </span>
@@ -110,8 +110,11 @@ export function Toggle3({
 
         <div
           aria-hidden="true"
-          className="top-2/12 absolute bg-slate-500 shadow-sm rounded-lg w-1/3 h-8/12 transition-transform duration-150 ease-out pointer-events-none"
-          style={{ transform: `translateX(${valueIndex * 100}%)` }}
+          className="top-2/12 absolute bg-slate-500 shadow-sm rounded-full h-8/12 transition-transform duration-150 ease-out pointer-events-none"
+          style={{
+            transform: `translateX(${[5, 115, 182][valueIndex]}%)`,
+            width: ["38%", "30%", "34%"][valueIndex],
+          }}
         />
       </div>
     </div>

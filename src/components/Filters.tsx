@@ -60,7 +60,7 @@ export default function Filters() {
   if (!choosenGod) return null;
 
   return (
-    <div className="justify-evenly md:justify-start gap-2 grid grid-cols-2 md:grid-cols-4 mx-auto px-4 md:px-0 container">
+    <div className="justify-evenly md:justify-start gap-2 grid grid-cols-2 md:grid-cols-4 mx-auto mt-2 px-4 md:px-0 container">
       <Toggle3
         value={filtersAsToggles.type}
         onChange={(value) => toggle("type", value)}

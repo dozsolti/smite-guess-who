@@ -288,6 +288,14 @@
     "roles": ["Solo"]
   },
   {
+    "name": "Hachiman",
+    "image_url": "./iconHachiman.webp",
+    "type": "physical",
+    "gender": "male",
+    "attack_type": "ranged",
+    "roles": ["Carry", "Jungle"]
+  },
+  {
     "name": "Hades",
     "image_url": "./iconHades.webp",
     "type": "magical",
